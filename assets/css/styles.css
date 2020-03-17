@@ -7,10 +7,10 @@ body {
 }
 
 #profile {
-  position: absolute;
-  height: 50px;
-  border-radius: 50%;
-  right: 250px;
+  position: fixed;
+  height: 70px;
+  top: 0;
+  right: 0px;
 }
 
 #profile-name {

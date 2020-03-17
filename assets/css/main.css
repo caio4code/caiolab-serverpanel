@@ -15,3 +15,12 @@
     color: white;
 
 }
+
+.btn-outline-light{
+    background-color: #4555D1;
+}
+
+.btn-outline-light:hover{
+    background-color: #7386D5;
+    color: #4555D1;
+}

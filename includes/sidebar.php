@@ -47,15 +47,15 @@
             <li>
 
             <li>
-                <a href="#">
+                <a href="" data-toggle="modal" data-target="#exampleModal">
                     <i class="glyphicon glyphicon-paperclip fas fa-money-check-alt"></i>
                     Billing
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="" data-toggle="modal2" data-target="#exampleModal2">
                     <i class="glyphicon glyphicon-paperclip fas fa-chart-pie"></i>
-                    Analyze
+                    Analytics
                 </a>
             </li>
             <li>
@@ -84,6 +84,45 @@
 
     <!-- Page Content Holder -->
 
+</div>
+
+<!-- pop up paypal billing-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Billing on PayPal</h5>
+            </div>
+            <div class="modal-body">
+                Payment for the caiolab cloud services is only available through paypal, our team will send the paypal payment invoice by the same email address as the caiolab cloud
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://www.paypal.com/signin" class="btn btn-primary" style='background-color: #4555D1;'>Open PayPal</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- pop up google analytics-->
+<div class="modal2 fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal1 aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal2">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- jQuery CDN -->

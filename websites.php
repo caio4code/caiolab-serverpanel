@@ -24,17 +24,25 @@
     <h1>example.com</h1>
     <br/>
     <div class="btn-group btn-group-toggle">
-        <label class="btn btn-dark" style='background-color: #4555D1;'>
+        <label class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-eye"></i>
-            <p>Visit your website</p>
+            <p style='color: #fff;'>Visit your website</p>
         </label>
-        <label class="btn btn-dark" style='background-color: #4555D1;'>
+        <label class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-users-cog"></i>
-            <p>Website Admin</p>
+            <p style='color: #fff;'>Website Admin</p>
         </label>
-        <label class="btn btn-dark" style='background-color: #4555D1;'>
+        <label class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-database"></i>
-            <p>Phpmyadmin</p>
+            <p style='color: #fff;'>Phpmyadmin</p>
+        </label>
+        <label class="btn btn-outline-light" style='color: #fff;'>
+            <i class="fas fa-memory"></i>
+            <p style='color: #fff;'>Change plan</p>
+        </label>
+        <label class="btn btn-outline-light" style='color: #fff;'>
+            <i class="fas fa-power-off"></i>
+            <p style='color: #fff;'>Cancel website</p>
         </label>
     </div>
     <br/>

@@ -23,6 +23,5 @@
         <h4 id="page-name">My Websites</h4>
 
         <img id="profile" src="assets/img/profile.png" />
-        <h5 id="profile-name">Caio César</h5>
 
     </nav>
