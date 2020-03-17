@@ -36,7 +36,7 @@
             <i class="fas fa-database"></i>
             <p style='color: #fff;'>Phpmyadmin</p>
         </label>
-        <label class="btn btn-outline-light" style='color: #fff;'>
+        <label class="btn btn-outline-light" data-toggle="modal-change-plan" data-target="#changePlan" style='color: #fff;'>
             <i class="fas fa-memory"></i>
             <p style='color: #fff;'>Change plan</p>
         </label>
@@ -122,12 +122,28 @@
     </div>
 </div>
 
-
 <?php
     include "includes/header.php";
 ?>
 
 
+<!-- pop up change plan-->
+<div class="modal-change-plan fade" id="changePlan" tabindex="-1" role="dialog" aria-labelledby="changePlanLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="changePlanLabel">Change Plan</h5>
+            </div>
+            <div class="modal-body">
+                here dev for change plan
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal-change-plan">Close</button>
+                <a href="https://www.paypal.com/signin" class="btn btn-primary" style='background-color: #4555D1;'>Change Plan</a>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>
