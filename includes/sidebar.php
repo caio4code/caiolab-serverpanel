@@ -3,7 +3,7 @@
 
 
     <nav id="sidebar">
-        <div class="sidebar-header shadow">
+        <div class="sidebar-header">
             <a href="account.php"><h3>CaioLab Cloud</h3></a>
             <strong>CL</strong>
         </div>

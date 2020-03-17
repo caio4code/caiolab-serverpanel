@@ -10,18 +10,18 @@ body {
   position: absolute;
   height: 50px;
   border-radius: 50%;
-  right: 210px;
+  right: 250px;
 }
 
 #profile-name {
   position: absolute;
   padding-left: 0px;
-  right: 100px;
+  right: 140px;
 }
 
 #page-name {
   position: absolute;
-  margin-left: 80px;
+  margin-left: 75px;
 }
 
 #content {

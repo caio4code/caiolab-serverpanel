@@ -72,12 +72,12 @@
 
             <br/>
 
-            <h4>FTP Access</h4>
+            <h4>Application / FTP Access</h4>
             <table class="table table-bordered">
                 <thead class="thead-dark">
                 <tr>
-                    <th scope="col">FTP User</th>
-                    <th scope="col">FTP Password</th>
+                    <th scope="col">User</th>
+                    <th scope="col">Password</th>
 
                 </tr>
                 <tbody>

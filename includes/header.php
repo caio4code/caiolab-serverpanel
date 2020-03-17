@@ -1,9 +1,7 @@
-<div id="content">
-
-    <nav class="navbar navbar-default navbar-fixed-top">
+ <nav class="navbar navbar-default navbar-fixed-top">
 
         <div class="dropdown">
-            <button type="button" id="menuLogin" class="btn">
+            <button type="button" id="menuLogin" class="btn"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-ellipsis-v"></i>
                 <span></span>
             </button>
@@ -20,6 +18,7 @@
             <a href="account.php">
                 <i class="fas fa-home"></i>
             </a>
+
         </div>
         <h4 id="page-name">My Websites</h4>
 
@@ -27,4 +26,3 @@
         <h5 id="profile-name">Caio César</h5>
 
     </nav>
-</div>
