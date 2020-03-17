@@ -24,15 +24,15 @@
     <h1>example.com</h1>
     <br/>
     <div class="btn-group btn-group-toggle">
-        <label class="btn btn-dark">
+        <label class="btn btn-dark" style='background-color: #4555D1;'>
             <i class="fas fa-eye"></i>
             <p>Visit your website</p>
         </label>
-        <label class="btn btn-dark">
+        <label class="btn btn-dark" style='background-color: #4555D1;'>
             <i class="fas fa-users-cog"></i>
             <p>Website Admin</p>
         </label>
-        <label class="btn btn-dark">
+        <label class="btn btn-dark" style='background-color: #4555D1;'>
             <i class="fas fa-database"></i>
             <p>Phpmyadmin</p>
         </label>
@@ -44,7 +44,7 @@
 
             <h3>Specs:</h3>
             <table class="table table-bordered">
-                <thead class="thead-dark">
+                <thead class="text-white" style='background-color: #4555D1;'>
                     <tr>
                         <th scope="col">Application</th>
                         <th scope="col">Storage</th>
@@ -74,7 +74,7 @@
 
             <h4>Application / FTP Access</h4>
             <table class="table table-bordered">
-                <thead class="thead-dark">
+                <thead class="text-white" style='background-color: #4555D1;'>
                 <tr>
                     <th scope="col">User</th>
                     <th scope="col">Password</th>
@@ -94,7 +94,7 @@
 
             <h4>Database Access</h4>
             <table class="table table-bordered">
-                <thead class="thead-dark">
+                <thead class="text-white" style='background-color: #4555D1;'>
                 <tr>
                     <th scope="col">Mysql User</th>
                     <th scope="col">Mysql Password</th>

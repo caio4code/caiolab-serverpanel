@@ -15,7 +15,7 @@
                 <span></span>
             </button>
 -->
-            <a href="account.php">
+            <a href="index.php">
                 <i class="fas fa-home"></i>
             </a>
 

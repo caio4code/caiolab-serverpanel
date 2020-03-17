@@ -4,15 +4,28 @@
 
     <nav id="sidebar">
         <div class="sidebar-header">
-            <a href="account.php"><h3>CaioLab Cloud</h3></a>
+            <a href="index.php"><h3>CaioLab Cloud</h3></a>
             <strong>CL</strong>
         </div>
 
         <ul class="list-unstyled components">
+            <li>
+
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="">
+                    <i class="fas fa-user"></i>
+                    Account
+                </a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li><a href="#">Change e-mail</a></li>
+                    <li><a href="#">Change password</a></li>
+                    <li><a href="#">Change registration information</a></li>
+
+                </ul>
+            </li>
             <li class="">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="">
                     <i class="glyphicon glyphicon-home fas fa-server"></i>
-                    My Websites
+                    Websites
                 </a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li><a href="websites.php">example.com</a></li>
@@ -37,6 +50,12 @@
                 <a href="#">
                     <i class="glyphicon glyphicon-paperclip fas fa-money-check-alt"></i>
                     Billing
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="glyphicon glyphicon-paperclip fas fa-chart-pie"></i>
+                    Analyze
                 </a>
             </li>
             <li>
