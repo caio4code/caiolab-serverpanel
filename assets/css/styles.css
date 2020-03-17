@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+
+.header {
+  position: absolute;
+}
+
+#profile {
+  position: absolute;
+  height: 50px;
+  border-radius: 50%;
+  right: 170px;
+}
+
+#profile-name {
+  position: absolute;
+  padding-left: 0px;
+  right: 55px;
+}
+
+#page-name {
+  position: absolute;
+  margin-left: 40px;
+}
+
+#content {
+  position: relative;
+  margin: -20px;
+  width: 110%;
+}
+
+#sidebar {
+  height: 5000px;
+}
+
