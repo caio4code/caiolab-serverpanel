@@ -28,7 +28,8 @@
 <div class='col-6 col-md-4' style='padding-bottom: 30px;'>
     <div class='card'>
         <div class='card-body'>
-            <h5 class='card-title'>example.com</h5>
+            <i class="fas fa-server menu-websites"></i>
+            <h5 class='card-title'>cesarleitao.com.br</h5>
             <a href='websites.php' class='btn btn-primary' style='background-color: #4555D1;'>View settings</a>
         </div>
     </div>

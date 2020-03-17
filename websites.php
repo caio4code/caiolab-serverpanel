@@ -21,13 +21,13 @@
 ?>
 
 <div class="div-websites">
-    <h1>example.com</h1>
+    <h1>cesarleitao.com.br</h1>
     <br/>
     <div class="btn-group btn-group-toggle">
-        <label class="btn btn-outline-light" style='color: #fff;'>
+        <a href="http://cesarleitao.com.br" class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-eye"></i>
             <p style='color: #fff;'>Visit your website</p>
-        </label>
+        </a>
         <label class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-users-cog"></i>
             <p style='color: #fff;'>Website Admin</p>
@@ -36,10 +36,10 @@
             <i class="fas fa-database"></i>
             <p style='color: #fff;'>Phpmyadmin</p>
         </label>
-        <label class="btn btn-outline-light" data-toggle="modal-change-plan" data-target="#changePlan" style='color: #fff;'>
+        <button class="btn btn-outline-light" data-toggle="modal-change-plan" data-target="#changePlan" style='color: #fff;'>
             <i class="fas fa-memory"></i>
             <p style='color: #fff;'>Change plan</p>
-        </label>
+        </button>
         <label class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-power-off"></i>
             <p style='color: #fff;'>Cancel website</p>
