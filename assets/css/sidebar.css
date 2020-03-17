@@ -31,7 +31,7 @@ i, span {
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #093eaf;
+  background: #5f62d4;
   color: #fff;
   transition: all 0.3s;
 }
@@ -42,7 +42,7 @@ i, span {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #00258b;
+  background: #4555D1;
 }
 
 #sidebar .sidebar-header strong {
