@@ -1,5 +1,7 @@
 <div class="wrapper">
     <!-- Sidebar Holder -->
+
+
     <nav id="sidebar">
         <div class="sidebar-header shadow">
             <a href="account.php"><h3>CaioLab Cloud</h3></a>
@@ -62,32 +64,7 @@
 
 
     <!-- Page Content Holder -->
-    <div id="content">
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-
-
-            <div class="navbar-brand">
-                <button type="button" id="sidebarCollapse" class="btn">
-                    <i class="fas fa-ellipsis-v"></i>
-                    <span></span>
-                </button>
-
-            </div>
-            <h4 id="page-name">My Websites</h4>
-
-            <img id="profile" src="assets/img/af052655-00d2-4ef0-b562-10bd73577186.jpeg" />
-            <h5 id="profile-name">Caio César</h5>
-            <div class="dropdown dropleft">
-            <button type="button" id="sidebarCollapse" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-chevron-circle-down"></i>
-            </button>
-                <div class="dropdown-menu" aria-labelledby="sidebarCollapse">
-                    <a class="dropdown-item" href="#">Log out</a>
-                </div>
-            </div>
-        </nav>
-    </div>
 </div>
 
 <!-- jQuery CDN -->
@@ -105,3 +82,5 @@
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">

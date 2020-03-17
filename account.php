@@ -38,7 +38,9 @@
     </div>
 </div>
 </div>
-
+<?php
+include "includes/header.php";
+?>
 </body>
 
 </html>

@@ -42,7 +42,9 @@ i, span {
 
 #sidebar .sidebar-header {
   padding: 20px;
+  height: 70px;
   background: #4555D1;
+  font-family: 'Exo 2', sans-serif;
 }
 
 #sidebar .sidebar-header strong {

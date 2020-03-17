@@ -51,6 +51,7 @@
                         <th scope="col">Bandwidth</th>
                         <th scope="col">Speed</th>
                         <th scope="col">Uptime</th>
+                        <th scope="col">CDN</th>
                         <th scope="col">SSL</th>
                         <th scope="col">Price</th>
                     </tr>
@@ -61,7 +62,8 @@
                         <td>Unlimited</td>
                         <td>Medium</td>
                         <td>99%</td>
-                        <td>Free</td>
+                        <td>No</td>
+                        <td>Let's Encrypt</td>
                         <td>BRL 25</td>
                     </tr>
                 </tbody>
@@ -111,6 +113,12 @@
         </div>
     </div>
 </div>
+
+
+<?php
+    include "includes/header.php";
+?>
+
 
 </body>
 
