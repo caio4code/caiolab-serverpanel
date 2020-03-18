@@ -22,9 +22,6 @@
 <!-- Content of website -->
 <br/>
 <div class="div-websites">
-    <i id="websites-icon" class="fas fa-users"></i>
-    <h1 id="websites-title">Manage Websites</h1>
-    <br/>
 
     <div class="btn-group btn-group-toggle">
         <a href="#" target="_blank" class="btn btn-outline-light" style='color: #fff;'>
@@ -45,7 +42,7 @@
         <div class='card-body'>
             <i class="fas fa-server menu-websites"></i>
             <h5 class='card-title'>example.com</h5>
-            <a href='websites.php' class='btn btn-primary' style='background-color: #4555D1;'>View settings</a>
+            <a href='websites.php?namepage=Manage Websites' class='btn btn-primary' style='background-color: #4555D1;'>View settings</a>
         </div>
     </div>
 </div>

@@ -20,6 +20,6 @@
             </a>
 
         </div>
-        <h4 id="page-name">My Websites</h4>
+        <h4 id="page-name"><?php echo $_GET["namepage"]?></h4>
 
     </nav>

@@ -4,7 +4,7 @@
 
     <nav id="sidebar">
         <div class="sidebar-header">
-            <a href="index.php"><h3><?php echo gethostname();?></h3></a>
+            <a href="index.php?namepage=Manage Websites"><h3><?php echo gethostname();?></h3></a>
             <strong>CL</strong>
         </div>
 
@@ -16,7 +16,7 @@
                     Account
                 </a>
                 <ul class="collapse list-unstyled" id="accountSubmenu">
-                    <li><a href="manageusers.php">Manage users</a></li>
+                    <li><a href="manageusers.php?namepage=Manage Users">Manage users</a></li>
                 </ul>
             </li>
             <li class="">
@@ -25,7 +25,7 @@
                     Websites
                 </a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li><a href="index.php">Manage websites</a></li>
+                    <li><a href="index.php?namepage=Manage Websites">Manage websites</a></li>
 
                 </ul>
             </li>
@@ -36,7 +36,7 @@
                     Databases
                 </a>
                 <ul class="collapse list-unstyled" id="databaseSubmenu">
-                    <li><a href="managedatabase.php">Manage databases</a></li>
+                    <li><a href="managedatabase.php?namepage=Manage Database">Manage databases</a></li>
                     <li><a href="#">Phpmyadmin</a></li>
 
                 </ul>

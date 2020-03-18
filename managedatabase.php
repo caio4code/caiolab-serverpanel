@@ -22,9 +22,6 @@ include "includes/sidebar.php";
 <!-- Content of website -->
 <br/>
 <div class="div-websites">
-    <i id="websites-icon" class="fas fa-database"></i>
-    <h1 id="websites-title">Manage Databases</h1>
-    <br/>
 
     <div class="btn-group btn-group-toggle">
         <a href="#" target="_blank" class="btn btn-outline-light" style='color: #fff;'>
