@@ -32,6 +32,20 @@
 
                 </ul>
             </li>
+            <li class="">
+                <a href="#settingsSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="glyphicon glyphicon-home fas fa-sliders-h"></i>
+                    Settings
+                </a>
+                <ul class="collapse list-unstyled" id="settingsSubmenu">
+                    <li><a href="#">File manager</a></li>
+                    <li><a href="#">Backup</a></li>
+                    <li><a href="#">SSH</a></li>
+                    <li><a href="#">FTP</a></li>
+                    <li><a href="#">Domains and subdomains</a></li>
+                    <li><a href="#">SSL</a></li>
+                </ul>
+            </li>
             <li>
 
                 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
