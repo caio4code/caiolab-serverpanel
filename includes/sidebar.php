@@ -49,7 +49,6 @@
                     Settings
                 </a>
                 <ul class="collapse list-unstyled" id="settingsSubmenu">
-                    <li><a href="filemanager.php">File manager</a></li>
                     <li><a href="#">Backup</a></li>
                     <li><a href="#">SSH</a></li>
                     <li><a href="#">FTP</a></li>

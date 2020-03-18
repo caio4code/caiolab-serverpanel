@@ -16,6 +16,7 @@
 </head>
 
 <body>
+<script type="text/javascript" src="assets/js/charts.js"></script>
 <?php
     include "includes/sidebar.php";
 ?>
@@ -40,19 +41,17 @@
             <td>100gb</td>
             <td>512gb</td>
         </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
         </tbody>
         </thead>
     </table>
 
     <nav class="website-menu">
-
-        <li>
-            <a href="#exampleModal" data-toggle="modal2">
-                <i class="glyphicon glyphicon-paperclip fas fa-chart-pie"></i>
-                Graphs
-            </a>
-        </li>
-
     <li>
         <a href="#exampleModal" data-toggle="modal2">
             <i class="glyphicon glyphicon-paperclip fas fa-folder"></i>
