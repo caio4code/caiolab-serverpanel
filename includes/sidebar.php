@@ -32,8 +32,9 @@
 
                 </ul>
             </li>
+
             <li class="">
-                <a href="#databaseSubmenuSubmenu" data-toggle="collapse" aria-expanded="false">
+                <a href="#databaseSubmenu" data-toggle="collapse" aria-expanded="false">
                     <i class="glyphicon glyphicon-home fas fa-database"></i>
                     Databases
                 </a>
@@ -43,6 +44,7 @@
 
                 </ul>
             </li>
+
             <li class="">
                 <a href="#settingsSubmenu" data-toggle="collapse" aria-expanded="false">
                     <i class="glyphicon glyphicon-home fas fa-sliders-h"></i>
