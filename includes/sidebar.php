@@ -25,7 +25,7 @@
                     Websites
                 </a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li><a href="websites.php">Manage virtualhost</a></li>
+                    <li><a href="index.php">Manage websites</a></li>
 
                 </ul>
             </li>
@@ -48,10 +48,9 @@
                     Settings
                 </a>
                 <ul class="collapse list-unstyled" id="settingsSubmenu">
-                    <li><a href="#">Backup</a></li>
+                    <li><a href="#">Domains and subdomains</a></li>
                     <li><a href="#">SSH</a></li>
                     <li><a href="#">FTP</a></li>
-                    <li><a href="#">Domains and subdomains</a></li>
                     <li><a href="#">SSL</a></li>
                 </ul>
             </li>
@@ -62,8 +61,9 @@
                     Software
                 </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li><a href="#">Web Hosting</a></li>
-                    <li><a href="#">Cloud Server</a></li>
+                    <li><a href="#">Nginx</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">MariaDB</a></li>
 
                 </ul>
             </li>

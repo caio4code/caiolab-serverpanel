@@ -19,9 +19,24 @@
 <?php
     include "includes/sidebar.php";
 ?>
-        <!-- Content of website -->
+<!-- Content of website -->
 <br/>
 <div class="div-websites">
+    <i id="websites-icon" class="fas fa-users"></i>
+    <h1 id="websites-title">Manage Websites</h1>
+    <br/>
+
+    <div class="btn-group btn-group-toggle">
+        <a href="#" target="_blank" class="btn btn-outline-light" style='color: #fff;'>
+            <i class="fas fa-user"></i>
+            <p style='color: #fff;'>Create Website</p>
+        </a>
+
+    </div>
+    <br/>
+    <br/>
+    <br/>
+
 <div class="container text-center">
     <div class="row">
 
