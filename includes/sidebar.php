@@ -16,10 +16,7 @@
                     Account
                 </a>
                 <ul class="collapse list-unstyled" id="accountSubmenu">
-                    <li><a href="#">Manage users</a></li>
-                    <li><a href="#">Change password</a></li>
-                    <li><a href="#">Change registration information</a></li>
-
+                    <li><a href="manageusers.php">Manage users</a></li>
                 </ul>
             </li>
             <li class="">
