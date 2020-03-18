@@ -17,6 +17,7 @@
 
 <body>
 <script type="text/javascript" src="assets/js/charts.js"></script>
+<script type="text/javascript" src="assets/js/display.js"></script>
 <?php
     include "includes/sidebar.php";
 ?>
@@ -53,33 +54,77 @@
 
     <nav class="website-menu">
     <li>
-        <a href="#exampleModal" data-toggle="modal2">
+        <button class="btn btn-link" >
             <i class="glyphicon glyphicon-paperclip fas fa-folder"></i>
             Files
-        </a>
+        </button>
     </li>
     <li>
-        <a href="#exampleModal" data-toggle="modal2">
+        <button class="btn btn-link" onclick="websiteAccess()">
             <i class="glyphicon glyphicon-paperclip fas fa-folder-open"></i>
             Access
-        </a>
+        </button>
     </li>
     <li>
-        <a href="#exampleModal" data-toggle="modal2">
+        <button class="btn btn-link">
             <i class="glyphicon glyphicon-paperclip fas fa-expand-alt"></i>
             Rezise
-        </a>
+        </button>
     </li>
     <li>
-        <a href="#exampleModal" data-toggle="modal2">
+        <button class="btn btn-link">
             <i class="glyphicon glyphicon-paperclip fas fa-trash"></i>
             Destroy
-        </a>
+        </button>
     </li>
     </nav>
 
     <div class="website-content">
+        <div class="container text-center" id="website-access">
+            <div class="row">
 
+                <br/>
+
+                <h4>Application / FTP Access</h4>
+                <table class="table table-bordered">
+                    <thead class="text-white" style='background-color: #4555D1;'>
+                    <tr>
+                        <th scope="col">User</th>
+                        <th scope="col">Password</th>
+
+                    </tr>
+                    <tbody>
+                    <tr>
+                        <td>Example342</td>
+                        <td>664654654</td>
+
+                    </tr>
+                    </tbody>
+                    </thead>
+                </table>
+
+                <br/>
+
+                <h4>Database Access</h4>
+                <table class="table table-bordered">
+                    <thead class="text-white" style='background-color: #4555D1;'>
+                    <tr>
+                        <th scope="col">Mysql User</th>
+                        <th scope="col">Mysql Password</th>
+
+                    </tr>
+                    <tbody>
+                    <tr>
+                        <td>Example435</td>
+                        <td>45535435</td>
+
+                    </tr>
+                    </tbody>
+                    </thead>
+                </table>
+
+            </div>
+        </div>
     </div>
 
 <!--
@@ -107,51 +152,7 @@
     </div>
     <br/>
     <br/>
-    <div class="container text-center">
-        <div class="row">
 
-            <br/>
-
-            <h4>Application / FTP Access</h4>
-            <table class="table table-bordered">
-                <thead class="text-white" style='background-color: #4555D1;'>
-                <tr>
-                    <th scope="col">User</th>
-                    <th scope="col">Password</th>
-
-                </tr>
-                <tbody>
-                <tr>
-                    <td>Example342</td>
-                    <td>664654654</td>
-
-                </tr>
-                </tbody>
-                </thead>
-            </table>
-
-            <br/>
-
-            <h4>Database Access</h4>
-            <table class="table table-bordered">
-                <thead class="text-white" style='background-color: #4555D1;'>
-                <tr>
-                    <th scope="col">Mysql User</th>
-                    <th scope="col">Mysql Password</th>
-
-                </tr>
-                <tbody>
-                <tr>
-                    <td>Example435</td>
-                    <td>45535435</td>
-
-                </tr>
-                </tbody>
-                </thead>
-            </table>
-
-        </div>
-    </div>
 -->
 </div>
 

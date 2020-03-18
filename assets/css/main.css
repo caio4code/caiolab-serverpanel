@@ -49,12 +49,22 @@
 
 /* websites.php */
 .website-menu{
+    margin-top: -20px;
     list-style: none;
-    color: #4555D1;
 }
 
-.website-menu li{
-    padding: 10px;
+.btn-link:hover{
+    color: #7386D5;
+}
+
+.website-menu btn btn-link{
+    padding: 5px;
+
+}
+
+.btn-link{
+    color: #4555D1;
+    text-decoration-line: none !important;
 }
 
 .website-menu a{
@@ -63,6 +73,10 @@
 
 .website-content{
     position: absolute;
-    top: 300px;
-    left: 200px;
+    top: 210px;
+    left: 150px;
+}
+
+#website-access{
+    display: none;
 }
