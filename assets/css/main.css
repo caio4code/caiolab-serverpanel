@@ -6,6 +6,15 @@
 
 }
 
+#websites-title {
+    margin-top: -45px;
+    margin-left: 70px;
+}
+
+#websites-icon {
+    font-size: 50px;
+}
+
 @media (max-width: 768px) {
     .div-websites{
         left: 90px;
@@ -36,4 +45,22 @@
 
 .menu-websites{
     font-size: 30px;
+}
+
+/* websites.php */
+.website-menu{
+    list-style: none;
+    color: #4555D1;
+}
+
+.website-menu li{
+    padding: 10px;
+}
+
+.website-menu a{
+    font-size: 18px;
+}
+
+.website-content{
+
 }

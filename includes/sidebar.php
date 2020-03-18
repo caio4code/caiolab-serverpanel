@@ -16,7 +16,7 @@
                     Account
                 </a>
                 <ul class="collapse list-unstyled" id="accountSubmenu">
-                    <li><a href="#">Change e-mail</a></li>
+                    <li><a href="#">Manage users</a></li>
                     <li><a href="#">Change password</a></li>
                     <li><a href="#">Change registration information</a></li>
 
@@ -25,7 +25,7 @@
             <li class="">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
                     <i class="glyphicon glyphicon-home fas fa-server"></i>
-                    Virtualhost
+                    Websites
                 </a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li><a href="websites.php">Manage virtualhost</a></li>
@@ -58,33 +58,16 @@
                 </ul>
             </li>
             <li>
-                <a href="#panelSettings">
-                    <i class="fas fa-swatchbook"></i>
-                    Panel settings
-                </a>
-            </li>
-                <ul class="collapse list-unstyled " id="panelSettings">
-                    <li><a href=""></a></li>
-                </ul>
-            </li>
-            <li>
 
                 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
                     <i class="glyphicon glyphicon-duplicate fas fa-cubes"></i>
-                    Advanced settings
+                    Software
                 </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li><a href="#">Web Hosting</a></li>
                     <li><a href="#">Cloud Server</a></li>
 
                 </ul>
-            </li>
-            <li>
-            <li>
-                <a href="#exampleModal" data-toggle="modal2">
-                    <i class="glyphicon glyphicon-paperclip fas fa-chart-pie"></i>
-                    Analytics
-                </a>
             </li>
             <li>
                 <a href="#">

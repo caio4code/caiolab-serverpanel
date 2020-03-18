@@ -21,8 +21,69 @@
 ?>
 
 <div class="div-websites">
-    <h1>cesarleitao.com.br</h1>
+    <i id="websites-icon" class="fas fa-server"></i>
+    <h1 id="websites-title">cesarleitao.com.br</h1>
     <br/>
+
+    <table class="table">
+        <thead style='color: #4555D1;'>
+        <tr>
+            <th scope="col">Application</th>
+            <th scope="col">Storage</th>
+            <th scope="col">Bandwidth</th>
+            <th scope="col">Memory</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td>HTTP</td>
+            <td>5gb SSD</td>
+            <td>100gb</td>
+            <td>512gb</td>
+        </tr>
+        </tbody>
+        </thead>
+    </table>
+
+    <nav class="website-menu">
+
+        <li>
+            <a href="#exampleModal" data-toggle="modal2">
+                <i class="glyphicon glyphicon-paperclip fas fa-chart-pie"></i>
+                Graphs
+            </a>
+        </li>
+
+    <li>
+        <a href="#exampleModal" data-toggle="modal2">
+            <i class="glyphicon glyphicon-paperclip fas fa-folder"></i>
+            Files
+        </a>
+    </li>
+    <li>
+        <a href="#exampleModal" data-toggle="modal2">
+            <i class="glyphicon glyphicon-paperclip fas fa-folder-open"></i>
+            Access
+        </a>
+    </li>
+    <li>
+        <a href="#exampleModal" data-toggle="modal2">
+            <i class="glyphicon glyphicon-paperclip fas fa-expand-alt"></i>
+            Rezise
+        </a>
+    </li>
+    <li>
+        <a href="#exampleModal" data-toggle="modal2">
+            <i class="glyphicon glyphicon-paperclip fas fa-trash"></i>
+            Destroy
+        </a>
+    </li>
+    </nav>
+
+    <div class="website-content">
+
+    </div>
+
+<!--
     <div class="btn-group btn-group-toggle">
         <a href="http://cesarleitao.com.br" target="_blank" class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-eye"></i>
@@ -49,34 +110,6 @@
     <br/>
     <div class="container text-center">
         <div class="row">
-
-            <h3>Specs:</h3>
-            <table class="table table-bordered">
-                <thead class="text-white" style='background-color: #4555D1;'>
-                    <tr>
-                        <th scope="col">Application</th>
-                        <th scope="col">Storage</th>
-                        <th scope="col">Bandwidth</th>
-                        <th scope="col">Speed</th>
-                        <th scope="col">Uptime</th>
-                        <th scope="col">CDN</th>
-                        <th scope="col">SSL</th>
-                        <th scope="col">Price</th>
-                    </tr>
-                <tbody>
-                    <tr>
-                        <td>Wordpress</td>
-                        <td>5gb SSD</td>
-                        <td>Unlimited</td>
-                        <td>Medium</td>
-                        <td>99%</td>
-                        <td>No</td>
-                        <td>Let's Encrypt</td>
-                        <td>BRL 25</td>
-                    </tr>
-                </tbody>
-                </thead>
-            </table>
 
             <br/>
 
@@ -120,6 +153,7 @@
 
         </div>
     </div>
+-->
 </div>
 
 <?php
