@@ -24,26 +24,26 @@
     <h1>cesarleitao.com.br</h1>
     <br/>
     <div class="btn-group btn-group-toggle">
-        <a href="http://cesarleitao.com.br" class="btn btn-outline-light" style='color: #fff;'>
+        <a href="http://cesarleitao.com.br" target="_blank" class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-eye"></i>
             <p style='color: #fff;'>Visit your website</p>
         </a>
-        <label class="btn btn-outline-light" style='color: #fff;'>
+        <a href="http://cesarleitao.com.br" class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-users-cog"></i>
             <p style='color: #fff;'>Website Admin</p>
-        </label>
-        <label class="btn btn-outline-light" style='color: #fff;'>
+        </a>
+        <a href="http://cesarleitao.com.br" class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-database"></i>
             <p style='color: #fff;'>Phpmyadmin</p>
-        </label>
+        </a>
         <button class="btn btn-outline-light" data-toggle="modal-change-plan" data-target="#changePlan" style='color: #fff;'>
             <i class="fas fa-memory"></i>
             <p style='color: #fff;'>Change plan</p>
         </button>
-        <label class="btn btn-outline-light" style='color: #fff;'>
+        <button class="btn btn-outline-light" data-toggle="modal-change-plan" data-target="#changePlan" style='color: #fff;'>
             <i class="fas fa-power-off"></i>
             <p style='color: #fff;'>Cancel website</p>
-        </label>
+        </button>
     </div>
     <br/>
     <br/>
@@ -127,7 +127,7 @@
 ?>
 
 
-<!-- pop up change plan-->
+<!-- pop up change plan
 <div class="modal-change-plan fade" id="changePlan" tabindex="-1" role="dialog" aria-labelledby="changePlanLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -144,6 +144,7 @@
         </div>
     </div>
 </div>
+-->
 </body>
 
 </html>
