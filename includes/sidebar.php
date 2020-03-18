@@ -36,7 +36,7 @@
                     Databases
                 </a>
                 <ul class="collapse list-unstyled" id="databaseSubmenu">
-                    <li><a href="websites.php">Manage database</a></li>
+                    <li><a href="managedatabase.php">Manage databases</a></li>
                     <li><a href="#">Phpmyadmin</a></li>
 
                 </ul>
