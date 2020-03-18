@@ -22,17 +22,17 @@ include "includes/sidebar.php";
 <!-- Content of website -->
 <br/>
 <div class="div-websites">
-    <i id="websites-icon" class="fas fa-users"></i>
+    <i id="websites-icon" class="fas fa-database"></i>
     <h1 id="websites-title">Manage Databases</h1>
     <br/>
 
     <div class="btn-group btn-group-toggle">
         <a href="#" target="_blank" class="btn btn-outline-light" style='color: #fff;'>
-            <i class="fas fa-user"></i>
-            <p style='color: #fff;'>Create a Database</p>
+            <i class="fas fa-database"></i>
+            <p style='color: #fff;'>Create Database</p>
         </a>
         <a href="#" target="_blank" class="btn btn-outline-light" style='color: #fff;'>
-            <i class="fas fa-user"></i>
+            <i class="fab fa-buffer"></i>
             <p style='color: #fff;'>Phpmyadmin</p>
         </a>
 
@@ -47,7 +47,7 @@ include "includes/sidebar.php";
             <div class='col-6 col-md-4' style='padding-bottom: 30px;'>
                 <div class='card'>
                     <div class='card-body'>
-                        <i class="fas fa-user menu-websites"></i>
+                        <i class="fas fa-database menu-websites"></i>
                         <h5 class='card-title'>caiolab-database</h5>
                         <a href='#' class='btn btn-primary' style='background-color: #4555D1;'>Modify database</a>
                         <a href='#' class='btn btn-primary' style='background-color: #4555D1;'>Delete database</a>
