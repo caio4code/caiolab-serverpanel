@@ -15,7 +15,7 @@
                 <span></span>
             </button>
 -->
-            <a href="index.php">
+            <a href="index.php?namepage=Manage Websites">
                 <i class="fas fa-home"></i>
             </a>
 
