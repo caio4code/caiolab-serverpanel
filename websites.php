@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>caiolab-cloud</title>
+    <title><?php echo gethostname();?> | Server Panel</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -38,11 +38,11 @@
         </a>
         <button class="btn btn-outline-light" data-toggle="modal-change-plan" data-target="#changePlan" style='color: #fff;'>
             <i class="fas fa-memory"></i>
-            <p style='color: #fff;'>Change plan</p>
+            <p style='color: #fff;'>Change limit</p>
         </button>
         <button class="btn btn-outline-light" data-toggle="modal-change-plan" data-target="#changePlan" style='color: #fff;'>
             <i class="fas fa-power-off"></i>
-            <p style='color: #fff;'>Cancel website</p>
+            <p style='color: #fff;'>Delete website</p>
         </button>
     </div>
     <br/>
