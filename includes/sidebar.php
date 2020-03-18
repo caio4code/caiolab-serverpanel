@@ -4,7 +4,7 @@
 
     <nav id="sidebar">
         <div class="sidebar-header">
-            <a href="index.php"><h3>CaioLab Cloud</h3></a>
+            <a href="index.php"><h3><?php echo gethostname();?></h3></a>
             <strong>CL</strong>
         </div>
 
@@ -47,10 +47,20 @@
                 </ul>
             </li>
             <li>
+                <a href="#panelSettings">
+                    <i class="fas fa-swatchbook"></i>
+                    Panel settings
+                </a>
+            </li>
+                <ul class="collapse list-unstyled " id="panelSettings">
+                    <li><a href=""></a></li>
+                </ul>
+            </li>
+            <li>
 
                 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
                     <i class="glyphicon glyphicon-duplicate fas fa-cubes"></i>
-                    Products
+                    Advanced settings
                 </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li><a href="#">Web Hosting</a></li>
@@ -59,13 +69,6 @@
                 </ul>
             </li>
             <li>
-
-            <li>
-                <a href="#exampleModal" data-toggle="modal">
-                    <i class="glyphicon glyphicon-paperclip fas fa-money-check-alt"></i>
-                    Billing
-                </a>
-            </li>
             <li>
                 <a href="#exampleModal" data-toggle="modal2">
                     <i class="glyphicon glyphicon-paperclip fas fa-chart-pie"></i>
@@ -75,14 +78,7 @@
             <li>
                 <a href="#">
                     <i class="glyphicon glyphicon-paperclip"></i>
-                    FAQ
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <i class="glyphicon glyphicon-send"></i>
-                    Support
+                    Documentation
                 </a>
             </li>
             <li>
@@ -92,7 +88,7 @@
                 </a>
             </li>
         </ul>
-        <p id="beta">BETA VERSION</p>
+        <p id="beta">DEVELOPMENT VERSION</p>
     </nav>
 
 
@@ -100,7 +96,7 @@
 
 </div>
 
-<!-- pop up paypal billing-->
+<!-- pop up paypal billing
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -117,7 +113,7 @@
         </div>
     </div>
 </div>
-
+-->
 <!-- pop up google analytics
 <div class="modal2 fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
