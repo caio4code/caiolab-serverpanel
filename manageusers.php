@@ -27,7 +27,7 @@ include "includes/sidebar.php";
     <br/>
 
     <div class="btn-group btn-group-toggle">
-        <a href="http://cesarleitao.com.br" target="_blank" class="btn btn-outline-light" style='color: #fff;'>
+        <a href="#" target="_blank" class="btn btn-outline-light" style='color: #fff;'>
             <i class="fas fa-user"></i>
             <p style='color: #fff;'>Create a User</p>
         </a>
@@ -45,8 +45,8 @@ include "includes/sidebar.php";
                     <div class='card-body'>
                         <i class="fas fa-user menu-websites"></i>
                         <h5 class='card-title'>root</h5>
-                        <a href='websites.php' class='btn btn-primary' style='background-color: #4555D1;'>Modify user</a>
-                        <a href='websites.php' class='btn btn-primary' style='background-color: #4555D1;'>Delete user</a>
+                        <a href='#' class='btn btn-primary' style='background-color: #4555D1;'>Modify user</a>
+                        <a href='#' class='btn btn-primary' style='background-color: #4555D1;'>Delete user</a>
                     </div>
                 </div>
             </div>
