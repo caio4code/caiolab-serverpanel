@@ -6,6 +6,15 @@
 
 }
 
+@media (max-width: 768px) {
+    .div-websites{
+        left: 90px;
+    }
+
+}
+}
+
+
 .card{
 
 }

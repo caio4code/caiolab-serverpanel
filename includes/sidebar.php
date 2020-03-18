@@ -25,10 +25,21 @@
             <li class="">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
                     <i class="glyphicon glyphicon-home fas fa-server"></i>
-                    Websites
+                    Virtualhost
                 </a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li><a href="websites.php">cesarleitao.com.br</a></li>
+                    <li><a href="websites.php">Manage virtualhost</a></li>
+
+                </ul>
+            </li>
+            <li class="">
+                <a href="#databaseSubmenuSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <i class="glyphicon glyphicon-home fas fa-database"></i>
+                    Databases
+                </a>
+                <ul class="collapse list-unstyled" id="databaseSubmenu">
+                    <li><a href="websites.php">Manage database</a></li>
+                    <li><a href="#">Phpmyadmin</a></li>
 
                 </ul>
             </li>

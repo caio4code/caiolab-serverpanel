@@ -21,6 +21,12 @@ a, a:hover, a:focus {
 
 }
 
+@media (max-width: 768px) {
+  .navbar{
+    margin-left: 80px;
+  }
+}
+
 .navbar-btn {
   box-shadow: none;
   outline: none !important;
@@ -107,9 +113,11 @@ ul ul a {
     min-width: 80px;
     max-width: 80px;
     text-align: center;
-    margin-left: -80px !important;
+
   }
 }
+
+
 
 @media (max-width: 768px) {
   #sidebar .sidebar-header h3, #sidebar .CTAs {
@@ -156,7 +164,7 @@ ul ul a {
 
 @media (max-width: 768px) {
   #sidebarCollapse span {
-    display: none;
+    display: block;
   }
 }
 
