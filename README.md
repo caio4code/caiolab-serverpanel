@@ -1,2 +1,2 @@
-# CaioLab Cloud
-CaioLab Cloud is a web hosting management and billing
+# CaioLab Server Panel
+CaioLab Server is a web hosting management
